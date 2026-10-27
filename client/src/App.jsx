@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ArrowUpRight, CalendarDays, MapPin, Search, Plus, X, GraduationCap, Sparkles, BriefcaseBusiness, Wrench, Trophy, HeartHandshake, ExternalLink, RefreshCw } from 'lucide-react';
-const API = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API = import.meta.env.VITE_API_URL || 'https://campusconnect-backend-j52a.onrender.com/api';
 const categories = ['All', 'Event', 'Workshop', 'Internship', 'Competition', 'Volunteer'];
 const icons = { Event: CalendarDays, Workshop: Wrench, Internship: BriefcaseBusiness, Competition: Trophy, Volunteer: HeartHandshake };
 const emptyForm = { title: '', description: '', category: 'Event', location: '', date: '', organizer: '', link: '' };
